@@ -1,3 +1,6 @@
+# tuncay demir 
+# numara: 20217170036 
+# A grubu 
 class Otobus:
     """Otobus bilet satis takip sinifi"""
     nereden:str=""
