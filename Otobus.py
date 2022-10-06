@@ -18,9 +18,9 @@ class Otobus:
         """Otobusteki dolu koltuk sayisini 1 artirir"""
         
         for i in range(len(self.dolu_koltuk)):
-            self.bos_koltuk +=1
+            self.bos_koltuk -=1
         
-        self.dolu_koltuk = self.bos_koltuk
+        
     
     def bilet_iade(self):
         """Otobusteki dolu koltuk sayisini 1 azaltir"""
